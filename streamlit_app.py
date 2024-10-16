@@ -28,14 +28,14 @@ page2 = st.Page(
 page3 = st.Page(
     page="views/Eisenhower_Matrix.py",
     title="Eisenhower Matrix",
-    icon=":material/thumb_up:",
+    icon=":material/table_view:",
 )
 
 # Add the new habit tracker page with a corrected icon
 page4 = st.Page(
     page="views/habit.py",
     title="Habit Tracker",
-    icon=":material/thumb_up:",  # Corrected icon format
+    icon=":material/check:",  # Corrected icon format
 )
 
 pg = st.navigation(
