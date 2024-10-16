@@ -31,12 +31,18 @@ page3 = st.Page(
     icon=":material/thumb_up:",
 )
 
+# Add the new habit tracker page with a corrected icon
+page4 = st.Page(
+    page="views/habit.py",
+    title="Habit Tracker",
+    icon=":material/thumb_up:",  # Corrected icon format
+)
+
 pg = st.navigation(
     {
         "Main": [home, about_me],
-        "Tools": [page1, page2, page3]
+        "Tools": [page1, page2, page3, page4]  # Add page4 to the Tools section
     }
 )
 
 pg.run()
-
