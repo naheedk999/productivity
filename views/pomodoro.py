@@ -1,6 +1,5 @@
 import streamlit as st
 import time
-from IPython.display import HTML
 
 def pomodoro_timer(pomodoro_length, short_break_length, long_break_length, long_break_interval):
     
