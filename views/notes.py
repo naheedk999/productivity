@@ -29,10 +29,10 @@ def notes_app():
             # Check if 'title' key exists in the note dictionary
             if 'title' in note:
                 with st.expander(f"{note['title']}"):
-                    st.write(note["content"])
+                    st.text_area("Note content:", value=note["content"], height=200, key=f"note_{note['id']}", disabled=True)
                     if st.button("Delete", key=f"delete_{note['id']}"):
                         st.session_state.notes.remove(note)
-                        st.experimental_rerun()
+                        st.rerun()
             else:
                 st.error(f"Note {index + 1} is missing a title.")
     else:
