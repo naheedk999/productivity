@@ -14,6 +14,8 @@ Welcome to your personal productivity center. Here, you'll find powerful tools t
 1. **⏲️ Pomodoro Timer**: Stay focused and manage your work intervals effectively.
 2. **✅ Todo List**: Keep track of your tasks and never miss a deadline.
 3. **🔢 Eisenhower Matrix**: Prioritize your tasks based on importance and urgency.
+4. **✔️ Habit Tracker**: Build and maintain positive habits for long-term success.
+5. **📝 Notes**: Capture and organize your thoughts and ideas efficiently.
 
 ### 💡 Quick Tip of the Day:
 """)
