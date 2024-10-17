@@ -38,10 +38,17 @@ page4 = st.Page(
     icon=":material/check:",  # Corrected icon format
 )
 
+# Add the new notes page
+notes_page = st.Page(
+    page="views/notes.py",
+    title="Notes",
+    icon=":material/note:",
+)
+
 pg = st.navigation(
     {
         "Main": [home, about_me],
-        "Tools": [page1, page2, page3, page4]  # Add page4 to the Tools section
+        "Tools": [page1, page2, page3, page4, notes_page]  # Add notes_page to the Tools section
     }
 )
 
